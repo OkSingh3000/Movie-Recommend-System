@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run PK
+web: gunicorn app:app
